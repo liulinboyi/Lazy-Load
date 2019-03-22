@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>懒加载</title>
+    <style>
+    .top{
+        width: 100%;
+        height: 100vh;
+    }
+    img{
+        width: 90%;
+        background: url(./img/white.png);
+        /* border: 1px solid #c3c3c3; */
+        height: 90%;
+        padding: 10px 0;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    </style>
+    
+</head>
+<body>
+    <!-- <div class="top"></div> -->
+    <div class="content">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/1.jpg">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/2.jpg">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/3.jpg">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/4.jpg">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/5.jpg">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/6.jpg">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/7.jpg">
+            <!-- <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/real.png">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/real.png">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/real.png">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/real.png">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/real.png">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/real.png">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/real.png">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/real.png">
+            <img class="lazy" src="./img/white.png" alt="" srcset="" data-src="./img/real.png"> -->
+
+
+
+    </div>
+    
+</body>
+<script src="./index.js"></script>
+</html>
